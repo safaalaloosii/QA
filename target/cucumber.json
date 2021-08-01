@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-01T01:47:00.393Z",
+        "line": 3,
+        "name": "As a user, I should be able to Login using vaild username and password",
+        "description": "",
+        "id": "1.-as-a-user--i-should-be-able-to-login-to-the-airspace-app.;as-a-user--i-should-be-able-to-login-using-vaild-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on the home page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "provides  vaild username and password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "see Login success message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "1. As a user, I should be able to login to the Airspace app.",
+    "description": "",
+    "id": "1.-as-a-user--i-should-be-able-to-login-to-the-airspace-app.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
